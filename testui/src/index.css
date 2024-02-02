@@ -13,7 +13,7 @@ body {
 
 .container {
   max-width: 1000rem;
-  margin: 0 auto; /* Center the container horizontally */
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,14 +25,12 @@ code {
     monospace;
 }
 
-/* Style the header with a grey background and some padding */
 .header {
   overflow: hidden;
   background-color: transparent;
   padding: 20px 10px;
 }
 
-/* Style the header links */
 .header a {
   float: left;
   color: black;
@@ -46,14 +44,12 @@ code {
   font-size: larger;
 }
 
-/* Float the link section to the right */
 .header-right {
   float: right;
   margin-right: 20px;
   margin-top: 15px;
 }
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
@@ -84,10 +80,9 @@ code {
   overflow: hidden;
   background-color: #d60000;
   display: flex;
-  justify-content: center; /* Center the items horizontally */
+  justify-content: center;
 }
 
-/* Navbar links on the left */
 #navbar a {
   color: #ffffff;
   text-align: center;
@@ -97,45 +92,40 @@ code {
   padding: 20px;
 }
 
-/* Order element aligned to the right */
 .order {
   color: #ffffff;
   padding: 12px;
   text-decoration: none;
   border-radius: 5px;
-  margin-left: auto; /* Move the element to the right */
-  background-color: #d60000; /* Add a white background */
+  margin-left: auto;
+  background-color: #d60000;
 }
 
-/* Order element aligned to the right */
 .menu {
   color: #f2f2f2;
   padding: 12px;
   text-decoration: none;
-  /* Move the element to the right */
-  background-color: rgb(0, 0, 0); /* Add a white background */
+
+  background-color: rgb(0, 0, 0);
 }
 
-/* Page content */
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
 }
 
 .gallery {
   border: 15px solid #f4f4f4;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 div.desc {
@@ -170,23 +160,23 @@ div.desc {
   display: flex;
   flex-wrap: wrap;
   gap: 4.8rem;
-  justify-content: center; /* Center the items horizontally */
+  justify-content: center;
 }
 
 .app2 li {
-  flex: 0 0 calc(25% - 4.8rem); /* 4 columns, adjusted for gap */
+  flex: 0 0 calc(25% - 4.8rem);
   margin-bottom: 4.8rem;
 }
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   .app2 li {
-    flex: 0 0 calc(50% - 4.8rem); /* 2 columns on smaller screens, adjusted for gap */
+    flex: 0 0 calc(50% - 4.8rem);
   }
 }
 
 .button {
-  background-color: #d60000; /* Green */
+  background-color: #d60000;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -195,8 +185,8 @@ div.desc {
   display: inline-block;
   font-size: 16px;
   border-radius: 4px;
-  width: 100%; /* Make the button width 100% of its container */
-  max-width: 250px; /* Set a maximum width if needed */
+  width: 100%;
+  max-width: 250px;
   font-weight: bold;
 }
 
