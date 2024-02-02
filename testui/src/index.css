@@ -174,3 +174,25 @@ div.desc {
     flex: 0 0 calc(50% - 4.8rem);
   }
 }
+
+.button {
+  background-color: #d60000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 250px;
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+  text-align: right;
+  padding: 1px;
+  margin: 1px;
+}
