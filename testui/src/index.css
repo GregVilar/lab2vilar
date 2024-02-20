@@ -196,3 +196,49 @@ div.desc {
   padding: 1px;
   margin: 1px;
 }
+
+.button:hover {
+  background-color: black;
+}
+
+.green {
+  color: green;
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.danger {
+  color: red;
+  font-weight: bolder;
+  border-style: dashed;
+  border-color: red;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.success {
+  color: green;
+  font-weight: bolder;
+  border-style: dashed;
+  border-color: green;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  align-items: center;
+}

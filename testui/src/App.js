@@ -15,49 +15,57 @@ const galleryData = [
   {
     name: "Double Patty Zinger",
     photoName: "borgi.png",
-    price: "₱150.00",
+    price: 150,
+    quantity: 1,
   },
 
   {
     name: "Super Platter",
     photoName: "combo.png",
-    price: "₱170.00",
+    price: 170,
+    quantity: 2,
   },
 
   {
     name: "1 PC Chicken Meal",
     photoName: "manok.png",
-    price: "₱130.00",
+    price: 130,
+    quantity: 3,
   },
 
   {
     name: "BBQ Bacon Snacker",
     photoName: "borgir.png",
-    price: "₱120.00",
+    price: 120,
+    quantity: 4,
   },
 
   {
     name: "Sisig Bowl",
     photoName: "sisig.png",
-    price: "₱170.00",
+    price: 170,
+    quantity: 5,
   },
 
   {
     name: "Water",
     photoName: "twobig.png",
-    price: "₱70.00",
+    price: 70,
+    quantity: 0,
   },
 
   {
     name: "Twister Combo",
     photoName: "lumpia.png",
-    price: "₱170.00",
+    price: 170,
+    quantity: 0,
   },
 
   {
     name: "Extreme Bucket",
     photoName: "spicy.png",
-    price: "₱170.00",
+    price: 170,
+    quantity: 2,
   },
 ];
 
