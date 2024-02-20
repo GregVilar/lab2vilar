@@ -201,26 +201,6 @@ div.desc {
   background-color: black;
 }
 
-.green {
-  color: green;
-  font-weight: bold;
-  text-align: center;
-  border-style: solid;
-  border-radius: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.red {
-  color: red;
-  font-weight: bold;
-  text-align: center;
-  border-style: solid;
-  border-radius: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .danger {
   color: red;
   font-weight: bolder;

@@ -5,7 +5,12 @@ function Gallery(props) {
         <img
           src={props.galleryImgObj.photoName}
           alt={props.galleryImgObj.name}
-          style={{ width: "100%", height: "auto" }}
+          style={{
+            width: "100%",
+            height: "auto",
+            filter:
+              props.galleryImgObj.quantity === 0 ? "grayscale(100%)" : "none",
+          }}
         />
 
         {props.galleryImgObj.quantity === 0 ? (
@@ -15,12 +20,6 @@ function Gallery(props) {
         )}
 
         <div></div>
-
-        {props.galleryImgObj.price <= 150 ? (
-          <p className="green">Mura lang guys</p>
-        ) : (
-          <p className="red">Mahal guys</p>
-        )}
 
         <p className="price">{props.galleryImgObj.price}</p>
         <div className="desc">{props.galleryImgObj.name}</div>
