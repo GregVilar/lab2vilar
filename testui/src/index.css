@@ -201,7 +201,7 @@ div.desc {
   background-color: black;
 }
 
-.danger {
+.out {
   color: red;
   font-weight: bolder;
   border-style: dashed;
@@ -212,7 +212,7 @@ div.desc {
   align-items: center;
 }
 
-.success {
+.in {
   color: green;
   font-weight: bolder;
   border-style: dashed;

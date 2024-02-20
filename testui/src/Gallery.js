@@ -14,9 +14,9 @@ function Gallery(props) {
         />
 
         {props.galleryImgObj.quantity === 0 ? (
-          <p className="danger">Out of Stock</p>
+          <p className="out">Out of Stock</p>
         ) : (
-          <p className="success">In Stock</p>
+          <p className="in">In Stock</p>
         )}
 
         <div></div>
